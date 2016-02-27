@@ -131,8 +131,11 @@ call s:HL( 'TabLineSel', 'Solitude', 'Winterhold', 'none' )
 "                             File Navigation: 
 " --------------------------------------------------------------------------------
 call s:HL( 'Directory', 'Windhelm', '', 'none' )
-call s:HL( 'Search', 'Whiterun', 'Krosulhah', 'none' )
-call s:HL( 'IncSearch', 'Windhelm', '', 'reverse' )
+"call s:HL( 'Search', 'Whiterun', 'Krosulhah', 'none' )
+"call s:HL( 'Search', 'Whiterun', 'Durnehviir', 'none' )
+call s:HL( 'Search', 'Odahviing', 'Riften', 'none' )
+"call s:HL( 'IncSearch', 'Windhelm', '', 'reverse' )
+call s:HL( 'IncSearch', 'Odahviing', '', 'reverse' )
 
 
 " --------------------------------------------------------------------------------
@@ -150,14 +153,17 @@ call s:HL( 'MoreMsg', 'Markarth', '', 'none' )
 " --------------------------------------------------------------------------------
 "                              Visual Aid: 
 " --------------------------------------------------------------------------------
-call s:HL( 'MatchParen', '', 'Solitude', 'reverse' )
-call s:HL( 'Visual', 'Whiterun', 'Krosulhah', 'none' )
+call s:HL( 'MatchParen', 'Riften', 'Winterhold', 'reverse' )
+"call s:HL( 'Visual', 'Whiterun', 'Krosulhah', 'none' )
+call s:HL( 'Visual', 'Whiterun', 'Riften', 'none' )
 call s:HL( 'VisualNOS', '', '', 'underline' )
 call s:HL( 'NonText', 'Winterhold', '', 'none' )
 "call s:HL( 'Todo', '', '', '' )
 call s:HL( 'Underlined', 'Riverwood', '', 'none' )
-call s:HL( 'Error', 'Windhelm', 'Solitude', 'reverse' )
-call s:HL( 'ErrorMsg', 'Windhelm', 'Solitude', 'reverse' )
+"call s:HL( 'Error', 'Windhelm', 'Solitude', 'reverse' )
+call s:HL( 'Error', 'Krosulhah', 'Whiterun', 'reverse' )
+"call s:HL( 'ErrorMsg', 'Windhelm', 'Solitude', 'reverse' )
+call s:HL( 'ErrorMsg', 'Krosulhah', 'Whiterun', 'reverse' )
 call s:HL( 'WarningMsg', 'Windhelm', '', 'none' )
 "call s:HL( 'Ignore', '', '', '' )
 "call s:HL( 'SpecialKey', '', '', '' )
@@ -167,7 +173,8 @@ call s:HL( 'WarningMsg', 'Windhelm', '', 'none' )
 "                             Variable Types:
 " --------------------------------------------------------------------------------
 call s:HL( 'Constant', 'Kruziikrel', '', 'none' )
-call s:HL( 'String', 'Paarthurnax', 'Ivarstead', 'none' )
+"call s:HL( 'String', 'Paarthurnax', 'Ivarstead', 'none' )
+call s:HL( 'String', 'Paarthurnax', '', 'none' )
 "call s:HL( 'StringDelimiter', '', '', '' )
 call s:HL( 'Character', 'Odahviing', '', 'none' )
 call s:HL( 'Number', 'Odahviing', '', 'none' )
