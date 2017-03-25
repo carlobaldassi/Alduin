@@ -105,6 +105,7 @@ call s:HL( 'Normal',        'Whiterun', 'Skyrim',    '' )
 "call s:HL( 'Cursor',       '',         '',          '' )
 "call s:HL( 'CursorLineNR', '',         '',          '' )
 call s:HL( 'CursorLine',    '',         'Ivarstead', 'none' )
+call s:HL( 'CursorColumn',    '',         'Ivarstead', 'none' )
 call s:HL( 'LineNr',        'Rorikstead',   'Solitude',  'none' )
 
 
